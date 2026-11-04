@@ -1,1 +1,10 @@
+if(NOT CMAKE_PROJECT_NAME)
+    cmake_minimum_required(VERSION 3.20)
+    project(CppSolve CXX)
+    set(CMAKE_CXX_STANDARD 26)
+    set(CMAKE_CXX_STANDARD_REQUIRED ON)
+    set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+    include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../include)
+endif()
+
 add_executable(example example.cpp)
