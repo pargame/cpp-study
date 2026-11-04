@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug current open file",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/debug/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated"
+        },
+        {
+            "name": "Run Release current open file",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/release/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated"
+        }
+    ]
+}
