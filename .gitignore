@@ -5,5 +5,12 @@ build/
 .cache/
 compile_commands.json
 
+# 환경 변수 및 보안
+.env
+.env.*
+*.key
+*.pem
+*credential*
+
 # macOS 시스템 파일
 .DS_Store
