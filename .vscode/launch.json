@@ -8,6 +8,7 @@
             "program": "${workspaceFolder}/build/debug/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build: Debug",
             "terminal": "integrated",
             "internalConsoleOptions": "neverOpen"
         },
@@ -18,6 +19,7 @@
             "program": "${workspaceFolder}/build/release/${fileBasenameNoExtension}",
             "args": [],
             "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build: Release",
             "terminal": "integrated",
             "internalConsoleOptions": "neverOpen"
         }
