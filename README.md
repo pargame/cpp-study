@@ -1,4 +1,4 @@
-# C++ Study (`cpp_study`)
+# C++ Study (`cpp-study`)
 
 C++26 기반 알고리즘 문제 풀이(`solve`) 및 STL 학습(`stl`) 통합 워크스페이스입니다.
 
