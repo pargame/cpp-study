@@ -19,3 +19,7 @@ cmake -B build/release -DCMAKE_BUILD_TYPE=Release -G Ninja
 ninja -C build/release
 ./build/release/example
 ```
+
+## 라이선스
+
+코드는 [MIT License](LICENSE)를 따릅니다.
